@@ -1,0 +1,36 @@
+#mainDiv {
+    display: flex;
+    flex-direction: column;  /* Change to column layout */
+    justify-content: center;  /* Center vertically */
+    align-items: center;      /* Center horizontally */
+    gap: 10px;
+    max-width: 900px;
+    padding: 10px;
+    border-style: solid;
+    height: 100px;
+    border-width: 1px;
+    border-radius: 20px;
+    background-color: #1a1a1a;
+}
+
+#timer {
+    color: green;
+    font-size: 60px; /* Optional: adjust font size if needed */
+}
+
+#buttonContainer {
+    display: flex;      /* Use flexbox for buttons */
+    gap: 10px;         /* Space between buttons */
+}
+
+#start, #pause, #reset {
+    width: 70px;
+    height: 29px;
+    border-color: white;
+    border-style: solid;
+    border-radius: 7px;
+    background-color: #333333;
+    font-family: Roboto; /* Corrected from Robota to Roboto */
+    color: white;
+    font-size: larger;
+}
